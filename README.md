@@ -84,35 +84,3 @@ To install the dependencies and run this project locally, follow these steps:
    npm start
    ```
    Open your browser and navigate to `http://localhost:4200`.
-4. Navigate to the project directory:
-
-   ```bash
-   cd elitehome-essentials
-
-   ```
-
-elitehome-essentials/
-├── src/
-│ ├── app/
-│ │ ├── about/
-│ │ ├── boiler/
-│ │ ├── contact/
-│ │ ├── electrical/
-│ │ ├── feedback1/
-│ │ ├── fire/
-│ │ ├── hello/
-│ │ ├── home/
-│ │ ├── landing/
-│ │ ├── login/
-│ │ ├── p2/
-│ │ ├── plumbing/
-│ │ ├── profile/
-│ │ ├── pumpfan/
-│ │ ├── sections/
-│ │ ├── shared/
-│ │ ├── showdetail/
-│ │ ├── signup/
-│ ├── assets/
-│ ├── environments/
-│ ├── ...
-├── ...
