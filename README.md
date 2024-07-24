@@ -1,165 +1,85 @@
+# EliteHome Essentials
+
+EliteHome Essentials is a premier provider of comprehensive home services, offering a wide range of solutions to meet the diverse needs of our customers. This project aims to develop a user-friendly Angular-based frontend web application to enhance service delivery and improve user experience.
+
 ## Table of Contents
 
-- [Versions](#versions)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [File Structure](#file-structure)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-- [Reporting Issues](#reporting-issues)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
+- [EliteHome Essentials](#elitehome-essentials)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [Technologies Used](#technologies-used)
+  - [Installation](#installation)
 
-## File Structure
+## Project Overview
 
-Within the download you'll find the following directories and files:
+This project includes features such as service booking, user authentication, and customer support, providing an intuitive interface to simplify the process of managing home services.
 
-```
-argon-design-system-angular
-├── CHANGELOG.md
-├── ISSUES_TEMPLATE.md
-├── LICENSE.md
-├── README.md
-├── angular.json
-├── e2e
-├── package-lock.json
-├── package.json
-├── src
-│   ├── app
-│   │   ├── app.component.html
-│   │   ├── app.component.scss
-│   │   ├── app.component.spec.ts
-│   │   ├── app.component.ts
-│   │   ├── app.module.ts
-│   │   ├── app.routing.ts
-│   │   ├── home
-│   │   │   ├── home.component.html
-│   │   │   ├── home.component.scss
-│   │   │   ├── home.component.spec.ts
-│   │   │   ├── home.component.ts
-│   │   │   └── home.module.ts
-│   │   ├── landing
-│   │   │   ├── landing.component.html
-│   │   │   ├── landing.component.scss
-│   │   │   ├── landing.component.spec.ts
-│   │   │   └── landing.component.ts
-│   │   ├── login
-│   │   │   ├── login.component.css
-│   │   │   ├── login.component.html
-│   │   │   ├── login.component.spec.ts
-│   │   │   └── login.component.ts
-│   │   ├── profile
-│   │   │   ├── profile.component.html
-│   │   │   ├── profile.component.scss
-│   │   │   ├── profile.component.spec.ts
-│   │   │   └── profile.component.ts
-│   │   ├── sections
-│   │   │   ├── alerts-section
-│   │   │   │   ├── alerts-section.component.css
-│   │   │   │   ├── alerts-section.component.html
-│   │   │   │   ├── alerts-section.component.spec.ts
-│   │   │   │   └── alerts-section.component.ts
-│   │   │   ├── angular-section
-│   │   │   │   ├── angular-section.component.css
-│   │   │   │   ├── angular-section.component.html
-│   │   │   │   ├── angular-section.component.spec.ts
-│   │   │   │   └── angular-section.component.ts
-│   │   │   ├── buttons-section
-│   │   │   │   ├── buttons-section.component.css
-│   │   │   │   ├── buttons-section.component.html
-│   │   │   │   ├── buttons-section.component.spec.ts
-│   │   │   │   └── buttons-section.component.ts
-│   │   │   ├── crs-section
-│   │   │   │   ├── crs-section.component.css
-│   │   │   │   ├── crs-section.component.html
-│   │   │   │   ├── crs-section.component.spec.ts
-│   │   │   │   └── crs-section.component.ts
-│   │   │   ├── inputs-section
-│   │   │   │   ├── inputs-section.component.css
-│   │   │   │   ├── inputs-section.component.html
-│   │   │   │   ├── inputs-section.component.spec.ts
-│   │   │   │   └── inputs-section.component.ts
-│   │   │   ├── modal
-│   │   │   │   ├── modal.component.html
-│   │   │   │   ├── modal.component.scss
-│   │   │   │   ├── modal.component.spec.ts
-│   │   │   │   └── modal.component.ts
-│   │   │   ├── navigation-section
-│   │   │   │   ├── navigation-section.component.css
-│   │   │   │   ├── navigation-section.component.html
-│   │   │   │   ├── navigation-section.component.spec.ts
-│   │   │   │   └── navigation-section.component.ts
-│   │   │   ├── nucleo-section
-│   │   │   │   ├── nucleo-section.component.css
-│   │   │   │   ├── nucleo-section.component.html
-│   │   │   │   ├── nucleo-section.component.spec.ts
-│   │   │   │   └── nucleo-section.component.ts
-│   │   │   ├── sections.component.css
-│   │   │   ├── sections.component.html
-│   │   │   ├── sections.component.spec.ts
-│   │   │   ├── sections.component.ts
-│   │   │   ├── sections.module.ts
-│   │   │   ├── tabs-section
-│   │   │   │   ├── tabs-section.component.css
-│   │   │   │   ├── tabs-section.component.html
-│   │   │   │   ├── tabs-section.component.spec.ts
-│   │   │   │   └── tabs-section.component.ts
-│   │   │   ├── typography-section
-│   │   │   │   ├── typography-section.component.css
-│   │   │   │   ├── typography-section.component.html
-│   │   │   │   ├── typography-section.component.spec.ts
-│   │   │   │   └── typography-section.component.ts
-│   │   │   └── versions-section
-│   │   │       ├── versions-section.component.css
-│   │   │       ├── versions-section.component.html
-│   │   │       ├── versions-section.component.spec.ts
-│   │   │       └── versions-section.component.ts
-│   │   ├── shared
-│   │   │   ├── footer
-│   │   │   │   ├── footer.component.html
-│   │   │   │   ├── footer.component.scss
-│   │   │   │   ├── footer.component.spec.ts
-│   │   │   │   └── footer.component.ts
-│   │   │   └── navbar
-│   │   │       ├── navbar.component.html
-│   │   │       ├── navbar.component.scss
-│   │   │       ├── navbar.component.spec.ts
-│   │   │       └── navbar.component.ts
-│   │   └── signup
-│   │       ├── signup.component.html
-│   │       ├── signup.component.scss
-│   │       ├── signup.component.spec.ts
-│   │       └── signup.component.ts
-│   ├── assets
-│   │   ├── css
-│   │   ├── img
-│   │   ├── js
-│   │   ├── scss
-│   │   │   ├── angular
-│   │   │   ├── argon.scss
-│   │   │   ├── bootstrap
-│   │   │   └── custom
-│   │   └── vendor
-│   ├── browserslist
-│   ├── environments
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── karma.conf.js
-│   ├── main.ts
-│   ├── polyfills.ts
-│   ├── styles.css
-│   ├── test.ts
-│   ├── tsconfig.app.json
-│   ├── tsconfig.spec.json
-│   └── tslint.json
-├── tsconfig.json
-└── tslint.json
+## Technologies Used
 
-```
+- **Framework:** Angular 13.3.1
+- **Libraries:**
+  - @angular/animations
+  - @angular/cdk
+  - @angular/common
+  - @angular/compiler
+  - @angular/core
+  - @angular/elements
+  - @angular/forms
+  - @angular/localize
+  - @angular/platform-browser
+  - @angular/platform-browser-dynamic
+  - @angular/router
+  - @ng-bootstrap/ng-bootstrap
+  - @popperjs/core
+  - bootstrap
+  - jw-bootstrap-switch-ng2
+  - moment
+  - ng2-nouislider
+  - nouislider
+  - rxjs
+  - zone.js
+- **Development Tools:**
+  - @angular-devkit/build-angular
+  - @angular/cli
+  - @angular/compiler-cli
+  - @angular/language-service
+  - @types/jasmine
+  - @types/jasminewd2
+  - @types/node
+  - codelyzer
+  - jasmine-core
+  - jasmine-spec-reporter
+  - karma
+  - karma-chrome-launcher
+  - karma-coverage
+  - karma-coverage-istanbul-reporter
+  - karma-jasmine
+  - karma-jasmine-html-reporter
+  - protractor
+  - ts-node
+  - tslint
+  - typescript
 
-## Browser Support
+## Installation
 
-At present, we officially aim to support the last two versions of the following browsers:
+To install the dependencies and run this project locally, follow these steps:
 
-<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64">
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd elitehome-essentials
+
+   ```
+
+2. **Install the dependencies:**
+
+   ```bash
+   npm install
+
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
