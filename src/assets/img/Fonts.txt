@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Museo Slab
+Author: Exljbris
+Url: http://www.fontsquirrel.com/fonts/museo-slab
+
+Font: Open Sans
+Author: Ascender Fonts
+Url: http://www.fontsquirrel.com/fonts/open-sans

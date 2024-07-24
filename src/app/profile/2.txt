@@ -1,0 +1,53 @@
+<div class="mt-5 mt-lg-0">
+              <!-- Menu -->
+              <h4 class="display-3  text-black">Why Choose Us ?
+                <!-- <span>A unified collection of specialized home service brands.</span> -->
+              </h4>
+              <div class="custom-tab-content flex-column flex-md-row">
+                <ul ngbNav #nav1="ngbNav" [(activeId)]="active" class="nav nav-pills justify-content-center" type="pills">
+                  <li class="nav-item" [ngbNavItem]="1">
+                    <a class="nav-link" ngbNavLink> Services:</a>
+                    <ng-template ngbNavContent>
+                      <div class="tab-content">
+                        <p class="description">At EliteHome Essentials, we offer a one-stop solution for all your home service needs. Whether it's plumbing, electrical work, or pump systems, we have the expertise and resources to handle it all. Our wide range of services ensures that you can rely on us for any home maintenance or repair project.</p>
+                        <!-- <p class="description">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu
+                          stumptown aliqua, retro synth master cleanse.</p> -->
+                      </div>
+                    </ng-template>
+                  </li>
+                  <li class="nav-item" [ngbNavItem]="2">
+                    <a class="nav-link" ngbNavLink>
+                      Expert Team:
+                    </a>
+                    <ng-template ngbNavContent>
+                      <div class="tab-content">
+                        <p class="description">Our team is comprised of skilled professionals dedicated to delivering exceptional service. Each member brings years of experience and specialized knowledge to the table, ensuring that every job is completed to the highest standards. We continuously train our staff to stay updated with the latest industry practices and technologies.</p>
+                      </div>
+                    </ng-template>
+                  </li>
+                  <li class="nav-item" [ngbNavItem]="3">
+                    <a class="nav-link" ngbNavLink>
+                      Reliability:
+                    </a>
+                    <ng-template ngbNavContent>
+                      <div class="tab-content">
+                        <p class="description">We understand the importance of having a trustworthy service provider for your home. At EliteHome Essentials, we pride ourselves on our reliability and efficiency. We show up on time, complete tasks as promised, and ensure everything is functioning perfectly before we leave. Our commitment to quality means you can have peace of mind knowing your home is in good hands.</p>
+                      </div>
+                    </ng-template>
+                  </li>
+                  <!--  -->
+
+                  <li class="nav-item" [ngbNavItem]="4">
+                    <a class="nav-link" ngbNavLink>
+                      Customer Focus:
+                    </a>
+                    <ng-template ngbNavContent>
+                      <div class="tab-content">
+                        <p class="description">Your satisfaction is our top priority. We listen to your needs and tailor our services to meet your specific requirements. From the initial consultation to the completion of the job, we ensure clear communication and a seamless experience. Our friendly customer support team is always ready to assist you with any questions or concerns, ensuring a smooth and satisfying service process.</p>
+                      </div>
+                    </ng-template>
+                  </li>
+                </ul>
+              </div>
+              <div [ngbNavOutlet]="nav1" class="custom-tab-content"></div>
+            </div>

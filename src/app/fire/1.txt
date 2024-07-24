@@ -1,0 +1,79 @@
+<div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="row row-grid">
+            <div class="col-lg-4">
+              <div class="card card-lift--hover shadow border-0">
+                <div class="card-body py-5">
+                  <div style="display: flex; justify-content: center; width: 100%;">
+                    <img src="./assets/img/new/fs4.jpg" alt="Rounded image" class="img-fluid rounded shadow" style="width: 150px;">
+                  </div>
+                  <br>
+                  <div style="display: flex; justify-content: center; width: 100%;">
+                    <h6 class="text-primary text-uppercase">Rebuilding:</h6>
+                  </div>
+                  <br>
+                  <p class="description mt-3">Rebuilding services for boilers and heating systems that have significant wear and tear or damage. This involves disassembling, inspecting, cleaning, repairing, or replacing worn-out parts, and reassembling the system to restore it to like-new condition. Rebuilding can extend the life of your equipment and improve its reliability and efficiency.</p>
+                  
+                  <!-- <a href="javascript:void(0)" class="btn btn-primary mt-4">Add Service</a> -->
+                  <button type="button" placement="bottom" ngbPopover="Your service has been placed 👷‍♂️👷‍♀️" popoverTitle="Service Message 😀" style="border: none;background-color: transparent;">
+                    <a href="javascript:void(0)" class="btn btn-primary mt-4">Add Service</a>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-4">
+              <div class="card card-lift--hover shadow border-0">
+                <div class="card-body py-5">
+                  <div style="display: flex; justify-content: center; width: 100%;">
+                    <img src="./assets/img/new/fs5.jpg" alt="Rounded image" class="img-fluid rounded shadow" style="width: 150px;">
+                  </div>
+                  <br>
+                  <div style="display: flex; justify-content: center; width: 100%;">
+                    <h6 class="text-primary text-uppercase">City Department of Buildings – Annual Boiler Inspection:</h6>
+                  </div>
+                  <p class="description mt-3">Annual inspection services required by the NYC Department of Buildings to ensure boilers are operating safely and in compliance with local regulations. This service includes a thorough inspection of all boiler components, safety devices, and controls, as well as the submission of necessary documentation to the Department of Buildings.</p>
+
+                  <button type="button" placement="bottom" ngbPopover="Your service has been placed 👷‍♂️👷‍♀️" popoverTitle="Service Message 😀" style="border: none;background-color: transparent;">
+                    <a href="javascript:void(0)" class="btn btn-primary mt-4">Add Service</a>
+                  </button>
+                  
+                  <!-- <a href="javascript:void(0)" class="btn btn-primary mt-4">Add Service</a> -->
+                  <!-- <button type="button" placement="bottom" ngbPopover="Your service has been placed 👷‍♂️👷‍♀️" popoverTitle="Service Message 😀"><a href="javascript:void(0)" class="btn btn-primary mt-4">Add Service</a></button> -->
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-4">
+              <div class="card card-lift--hover shadow border-0">
+                <div class="card-body py-5">
+                  <!-- <div class="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                    <i class="ni ni-planet"></i>
+                  </div> -->
+                  <!-- <div class="col-sm-3 col-6"> -->
+                  <div style="display: flex; justify-content: center; width: 100%;">
+                    <img src="./assets/img/newb6.jpg" alt="Rounded image" class="img-fluid rounded shadow" style="width: 150px;">
+                  </div>
+                  <!-- </div> -->
+                  <br>
+                  <div style="display: flex; justify-content: center; width: 100%;">
+                    <h6 class="text-primary text-uppercase">Maintenance Agreements:</h6>
+                  </div>
+                  <br>
+                  <p class="description mt-3">Customized maintenance agreements tailored to your specific needs, providing regular service and support for your heating and water heating systems. These agreements often include scheduled inspections, preventive maintenance, priority service, and discounts on repairs, ensuring your systems run smoothly year-round.</p>
+                  
+                  <!-- <a href="javascript:void(0)" class="btn btn-primary mt-4">Add Service</a> -->
+                  <button type="button" placement="bottom" ngbPopover="Your service has been placed 👷‍♂️👷‍♀️" popoverTitle="Service Message 😀" style="border: none;background-color: transparent;">
+                    <a href="javascript:void(0)" class="btn btn-primary mt-4">Add Service</a>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+    </div>
